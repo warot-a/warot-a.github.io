@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Microsoft Certified: Azure Data Scientist Associate",
+    "period": "2025–2026"
+  },
+  {
+    "id": 2,
+    "name": "Microsoft Certified: Azure AI Engineer Associate",
+    "period": "2025–2026"
+  },
+  {
+    "id": 3,
+    "name": "Microsoft Certified: Azure AI Fundamentals",
+    "period": "2025"
+  },
+  {
+    "id": 4,
+    "name": "Microsoft Certified: Azure Fundamentals",
+    "period": "2023"
+  }
+]
