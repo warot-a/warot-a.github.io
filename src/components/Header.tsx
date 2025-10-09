@@ -1,5 +1,5 @@
 import { TABS, type TabType } from '../constants/tabs';
-import favIcon from '../assets/favicon-cat-blue.svg'
+import favIcon from '../assets/favicon-cat-blue.svg';
 
 interface HeaderProps {
   tab: TabType;
