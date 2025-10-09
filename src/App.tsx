@@ -6,15 +6,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Projects from './components/Projects';
-
-// Tab constants
-const TABS = {
-  ABOUT: 'about',
-  PROJECTS: 'projects',
-  CONTACT: 'contact',
-} as const;
-
-type TabType = typeof TABS[keyof typeof TABS];
+import { TABS, type TabType } from './constants/tabs';
 
 function App() {
   const location = useLocation();
@@ -37,7 +29,7 @@ function App() {
   // Update URL when tab changes
   const handleTabChange = (newTab: TabType) => {
     setTab(newTab);
-    const path = newTab === TABS.ABOUT ? `/${TABS.ABOUT}` : `/${newTab}`;
+    const path = newTab === TABS.ABOUT ? '/' : `/${newTab}`;
     navigate(path);
   };
 
@@ -45,7 +37,7 @@ function App() {
   useEffect(() => {
     const currentTab = getTabFromPath(location.pathname);
     if (location.pathname === '/') {
-      navigate(`/${TABS.ABOUT}`);
+      setTab(TABS.ABOUT);
     } else {
       setTab(currentTab);
     }
