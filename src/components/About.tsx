@@ -25,7 +25,7 @@ function About() {
                   <td className="py-3 px-4 align-top">
                     <div className="flex items-center gap-2">
                       <img
-                        src={`/src/assets/${skill.icon}`}
+                        src={`/${skill.icon}`}
                         alt={skill.category}
                         className="w-5 h-5 text-sky-600"
                       />
@@ -44,7 +44,7 @@ function About() {
               <div key={skill.id} className="border border-sky-100 rounded-lg p-4 hover:bg-sky-50">
                 <div className="flex items-center gap-2 mb-2">
                   <img
-                    src={`/src/assets/${skill.icon}`}
+                    src={`/${skill.icon}`}
                     alt={skill.category}
                     className="w-5 h-5 text-sky-600"
                   />
