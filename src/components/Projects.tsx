@@ -79,6 +79,17 @@ function Projects() {
               <p className={`text-sm mt-2 ${project.link ? 'text-slate-700' : 'text-gray-500'}`}>
                 {project.description}
               </p>
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-2 text-xs text-sky-600 hover:text-sky-800 font-medium"
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  View Repository →
+                </a>
+              )}
             </li>
           ))}
         </ul>
