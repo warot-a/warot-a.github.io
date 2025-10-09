@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <style>
+      .s{stroke:#0ea5e9;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <!-- Cat peeking over a laptop with < /> on screen -->
+  <rect x="6" y="14" width="20" height="10" rx="2" class="s"/>
+  <line x1="4" y1="26" x2="28" y2="26" class="s"/>
+  <polyline points="12,19 10,21 12,23" class="s"/>
+  <polyline points="20,19 22,21 20,23" class="s"/>
+  <line x1="15.5" y1="18.5" x2="16.5" y2="23.5" class="s"/>
+  <path d="M9 12 L8 6 L12 9" class="s"/>
+  <path d="M23 12 L24 6 L20 9" class="s"/>
+  <path d="M10 14 q6 -5 12 0" class="s"/>
+  <circle cx="13" cy="13.2" r="0.8" fill="#0ea5e9"/>
+  <circle cx="19" cy="13.2" r="0.8" fill="#0ea5e9"/>
+</svg>
