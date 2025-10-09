@@ -14,18 +14,19 @@ function Projects() {
 
   return (
     <>
-      <h2 className="mb-3 text-xl font-semibold text-sky-800">Projects</h2>
+      <h2 className="text-center mb-3 text-xl font-semibold text-sky-800">Projects</h2>
       <ul className={`grid ${getGridCols()} gap-4`}>
         {projectsData.map((project) => (
-          <li
+            <li
             key={project.id}
             className="rounded-lg border border-sky-100 p-4 hover:bg-sky-50 cursor-pointer transition-colors"
             onClick={() => window.open(project.link, '_blank', 'noopener,noreferrer')}
-          >
-            <div className="font-medium text-sky-900">{project.title}</div>
-            <div className="text-sm text-slate-600">{project.technologies}</div>
-            <div className="text-sm text-slate-700 mt-2">{project.description}</div>
-          </li>
+            title="View project repository"
+            >
+            <h3 className="font-medium text-sky-900">{project.title}</h3>
+            <p className="text-sm text-slate-600 font-medium">{project.technologies}</p>
+            <p className="text-sm text-slate-700 mt-2">{project.description}</p>
+            </li>
         ))}
       </ul>
     </>
