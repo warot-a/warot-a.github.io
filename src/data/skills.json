@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "category": "Programming Languages",
+    "icon": "programming.svg",
+    "skills": "C# .NET, TypeScript, JavaScript, PHP, Python"
+  },
+  {
+    "id": 2,
+    "category": "Frontend Development",
+    "icon": "frontend.svg",
+    "skills": "Angular, HTML5, CSS3, Responsive Web Development"
+  },
+  {
+    "id": 3,
+    "category": "Backend & Systems",
+    "icon": "backend.svg",
+    "skills": ".NET Core, NodeJS, Linux, Docker, RESTful APIs"
+  },
+  {
+    "id": 4,
+    "category": "Cloud & Infrastructure",
+    "icon": "cloud.svg",
+    "skills": "AWS (EC2, Lambda, ECS, S3, RDS, DynamoDB, ElastiCache, SNS, SQS), Terraform, CDK"
+  },
+  {
+    "id": 5,
+    "category": "Databases & Data Systems",
+    "icon": "database.svg",
+    "skills": "PostgreSQL, Redis, Elasticsearch"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Postman Automated Testing",
+    "technologies": "Postman • TypeScript • Bun • GitHub Actions",
+    "description": "A comprehensive testing suite for API endpoints using Postman, with automated tests and CI/CD integration.",
+    "link": "https://github.com/warot-a/simple-calculator-api"
+  },
+  {
+    "id": 2,
+    "title": "Key-phrase API (dummy)",
+    "technologies": ".NET • Azure AI Language Service • Azure Functions",
+    "description": "A RESTful API that extracts key phrases from a given text using natural language processing techniques.",
+    "link": "https://github.com/warot-a/key-phrase-api"
+  },
+  {
+    "id": 3,
+    "title": "Restaurant Chat Assistant (dummy)",
+    "technologies": "LINE integration • LLM/SLM • 5km geofilter",
+    "description": "A chatbot that can assist customers in making reservations, answering questions about the menu, and providing recommendations based on their preferences.",
+    "link": "https://github.com/warot-a/restaurant-chat-assistant"
+  },
+  {
+    "id": 4,
+    "title": "Weather Forecast App (dummy)",
+    "technologies": "Flutter • REST API • SQLite",
+    "description": "A mobile application that provides accurate weather forecasts, alerts, and historical weather data for multiple locations.",
+    "link": "https://github.com/warot-a/weather-forecast-app"
+  },
+  {
+    "id": 5,
+    "title": "AI Image Classifier (dummy)",
+    "technologies": "Python • TensorFlow • FastAPI",
+    "description": "A machine learning application that automatically categorizes and tags images using deep learning algorithms.",
+    "link": "https://github.com/warot-a/ai-image-classifier"
+  }
+]
