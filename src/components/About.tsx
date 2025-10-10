@@ -9,7 +9,7 @@ function About() {
     <div className="space-y-6">
       <h2 className="mb-3 text-xl font-semibold text-sky-800 text-center">About me</h2>
       <p className="text-slate-700 text-center">
-        Senior Software Engineer | Full-Stack Developer experienced in building scalable cloud-native applications,<br /> with expertise across frontend, backend, and DevOps for enterprise environments.
+        Senior Software Engineer | Full-Stack Developer experienced in building scalable cloud-native applications, with expertise across frontend, backend, and DevOps for enterprise environments.
       </p>
 
       <div>
