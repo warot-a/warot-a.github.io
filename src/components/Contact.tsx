@@ -20,7 +20,7 @@ function Contact() {
       </a>
       <div className="inline-flex items-center gap-2 text-slate-700">
         <img src={locationIcon} alt="Location" className="w-4 h-4" />
-        <span>Khon Kaen, Thailand</span>
+        <span>Khon Kaen / Bangkok, Thailand</span>
       </div>
     </div>
   );

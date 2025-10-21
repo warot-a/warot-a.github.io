@@ -1,22 +1,26 @@
 [
   {
     "id": 1,
-    "title": "🚀 Platform-as-a-Service (PaaS) – Refinitiv (2022–2025)",
+    "title": "☁️ Platform-as-a-Service (PaaS) – Refinitiv (2022–2025)",
+    "technologies": "AWS • C# • TypeScript • Python • GitLab CI • Terraform • AWS CDK",
     "description": "Architected a multi-runtime PaaS on AWS supporting 50+ applications. Enabled C#, TypeScript, and Python runtimes with >99.9% uptime. Integrated GitLab CI, Terraform, AWS CDK to accelerate deployment cycles."
   },
   {
     "id": 2,
-    "title": "🔗 NHC – Oivan (2020–2022)",
+    "title": "🏡 NHC – Oivan (2020–2022)",
+    "technologies": "Angular",
     "description": "Electronic rental platform built with Angular (frontend) and Ruby on Rails microservices (backend). It standardizes contracts, enables digital lease management, integrates SADAD payments, and protects rights of landlords, tenants, and brokers with transparent processes."
   },
   {
     "id": 3,
     "title": "🔎 Auto-Suggest Application – Refinitiv (2018–2020)",
+    "technologies": "HTML5 • NodeJS • ElectronJS • Webpack • Restful APIs",
     "description": "Designed a \"Spotlight-like\" search application for Refinitiv Workspace. Improved search efficiency for thousands of users worldwide."
   },
   {
     "id": 4,
     "title": "🌐 CMS for Non-Technical Users – Thomson Reuters (2013–2018)",
+    "technologies": "PHP • Javascript • Vert.x • Java • MongoDB • MySQL",
     "description": "Built a CMS platform enabling non-technical staff to update content. Reduced update time from weeks to hours."
   }
 ]

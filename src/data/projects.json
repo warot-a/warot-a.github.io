@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Postman Automated Testing",
+    "title": "🚀 Postman Automated Testing",
     "technologies": "Postman • TypeScript • Bun • GitHub Actions",
     "description": "A comprehensive testing suite for API endpoints using Postman, with automated tests and CI/CD integration. This project is already utilized in an enterprise product.",
     "link": "https://github.com/warot-a/simple-calculator-api"

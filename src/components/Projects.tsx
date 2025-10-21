@@ -1,12 +1,6 @@
 import projectsData from '../data/projects.json';
 import professionalProjectsData from '../data/professional-projects.json';
 
-interface ProfessionalProject {
-  id: number;
-  title: string;
-  description: string;
-}
-
 interface Project {
   id: number;
   title: string;
@@ -16,54 +10,44 @@ interface Project {
 }
 
 function Projects() {
-  const professionalProjects: ProfessionalProject[] = professionalProjectsData;
-
-
+  const professionalProjects: Project[] = professionalProjectsData;
   const projects: Project[] = projectsData;
-  const itemCount = projects.length;
-  const professionalItemCount = professionalProjects.length;
-
-  const getGridCols = (count: number) => {
-    if (count === 1) {
-      return 'grid-cols-1';
-    }
-    return 'grid-cols-1 md:grid-cols-2';
-  };
 
   return (
     <div className="space-y-8">
-      {/* Professional Projects Section */}
-      <div>
+      <div className="overflow-x-auto">
         <h2 className="text-center mb-3 text-xl font-semibold text-sky-800">Professional Projects</h2>
-        <ul className={`grid ${getGridCols(professionalItemCount)} gap-4`}>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {professionalProjects.map((project) => (
-            <li
+            <div
               key={project.id}
               className="rounded-lg border p-4 border-sky-100 hover:bg-sky-50 cursor-default"
               title="Professional project details"
             >
-              <h3 className="font-medium text-gray-600 mb-2">
+              <h3 className="font-medium text-sky-900">
                 {project.title}
               </h3>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm font-medium text-slate-600">
+                {project.technologies}
+              </p>
+              <p className="text-sm mt-2 text-slate-700">
                 {project.description}
               </p>
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
 
-      {/* Personal Projects Section */}
-      <div>
+      <div className="overflow-x-auto">
         <h2 className="text-center mb-3 text-xl font-semibold text-sky-800">Personal Projects</h2>
         <p className="text-center mb-4 text-sm text-slate-600 italic">
           This section is currently under development. Additional content will be published periodically.
         </p>
-        <ul className={`grid ${getGridCols(itemCount)} gap-4`}>
-          {projectsData.map((project) => (
-            <li
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          {projects.map((project) => (
+            <div
               key={project.id}
-              className={`rounded-lg border p-4 transition-colors ${project.link
+              className={`rounded-lg border p-4 ${project.link
                 ? 'border-sky-100 hover:bg-sky-50 cursor-pointer'
                 : 'border-gray-200 bg-gray-50 cursor-default opacity-60'
                 }`}
@@ -90,9 +74,9 @@ function Projects() {
                   View Repository →
                 </a>
               )}
-            </li>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </div>
   );
