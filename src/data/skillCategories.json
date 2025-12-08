@@ -1,0 +1,22 @@
+[
+  {
+    "key": "languages",
+    "label": "Languages",
+    "icon": "Terminal"
+  },
+  {
+    "key": "cloud",
+    "label": "Cloud & Infra",
+    "icon": "Cloud"
+  },
+  {
+    "key": "backend",
+    "label": "Backend & Systems",
+    "icon": "Server"
+  },
+  {
+    "key": "data",
+    "label": "Data",
+    "icon": "Database"
+  }
+]
