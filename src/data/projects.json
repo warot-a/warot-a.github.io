@@ -1,33 +1,26 @@
 [
   {
-    "id": 1,
-    "title": "🚀 Postman Automated Testing",
-    "technologies": "Postman • TypeScript • Bun • GitHub Actions",
-    "description": "A comprehensive testing suite for API endpoints using Postman, with automated tests and CI/CD integration. This project is already utilized in an enterprise product.",
-    "link": "https://github.com/warot-a/simple-calculator-api"
+    "title": "Platform-as-a-Service (PaaS)",
+    "org": "Refinitiv",
+    "tech": ["AWS", "C#", "TypeScript", "Terraform", "GitLab CI"],
+    "desc": "Architected a multi-runtime PaaS on AWS supporting 50+ applications with >99.9% uptime."
   },
   {
-    "id": 2,
-    "title": "Restaurant Chat Assistant (Concept Project)",
-    "technologies": "LINE integration • LLM/SLM • 5km geofilter",
-    "description": "A chatbot that can assist customers in making reservations, answering questions about the menu, and providing recommendations based on their preferences."
+    "title": "NHC Electronic Rental",
+    "org": "Oivan",
+    "tech": ["Angular", "Ruby on Rails", "Microservices"],
+    "desc": "Electronic rental platform standardizing contracts and enabling digital lease management."
   },
   {
-    "id": 3,
-    "title": "Key-phrase API (Concept Project)",
-    "technologies": ".NET • Azure AI Language Service • Azure Functions",
-    "description": "A RESTful API that extracts key phrases from a given text using natural language processing techniques."
+    "title": "Auto-Suggest Application",
+    "org": "Refinitiv",
+    "tech": ["ElectronJS", "NodeJS", "Webpack"],
+    "desc": "Designed a 'Spotlight-like' search application improving search efficiency for thousands of users."
   },
   {
-    "id": 4,
-    "title": "Weather Forecast App (Concept Project)",
-    "technologies": "Flutter • REST API • SQLite",
-    "description": "A mobile application that provides accurate weather forecasts, alerts, and historical weather data for multiple locations."
-  },
-  {
-    "id": 5,
-    "title": "AI Image Classifier (Concept Project)",
-    "technologies": "Python • TensorFlow • FastAPI",
-    "description": "A machine learning application that automatically categorizes and tags images using deep learning algorithms."
+    "title": "Postman Automated Testing",
+    "org": "Personal",
+    "tech": ["Postman", "TypeScript", "GitHub Actions"],
+    "desc": "Comprehensive testing suite for API endpoints with CI/CD integration."
   }
 ]

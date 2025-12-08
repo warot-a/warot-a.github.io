@@ -1,32 +1,7 @@
-[
-  {
-    "id": 1,
-    "category": "Programming Languages",
-    "icon": "programming.svg",
-    "skills": "C# .NET, TypeScript, JavaScript, PHP, Python, Java"
-  },
-  {
-    "id": 2,
-    "category": "Frontend Development",
-    "icon": "frontend.svg",
-    "skills": "Angular, React, HTML5, CSS3, Tailwind CSS, Responsive Web Development"
-  },
-  {
-    "id": 3,
-    "category": "Backend & Systems",
-    "icon": "backend.svg",
-    "skills": ".NET Core, NodeJS, Bun, Linux, Docker, RESTful APIs"
-  },
-  {
-    "id": 4,
-    "category": "Cloud & Infrastructure",
-    "icon": "cloud.svg",
-    "skills": "AWS (EC2, Lambda, ECS, S3, RDS, DynamoDB, ElastiCache, SNS, SQS), IaaS (Terraform, AWS CDK)"
-  },
-  {
-    "id": 5,
-    "category": "Databases & Data Systems",
-    "icon": "database.svg",
-    "skills": "PostgreSQL, MySQL, Redis, Elasticsearch, MongoDB"
-  }
-]
+{
+  "languages": ["C# .NET", "TypeScript", "JavaScript", "Java", "PHP", "Python"],
+  "frontend": ["Angular", "React", "CSS3", "HTML5", "Tailwind CSS"],
+  "backend": [".NET Core", "NodeJS", "Linux", "Docker", "RESTful APIs"],
+  "cloud": ["AWS (EC2, Lambda, ECS, S3, RDS, DynamoDB, ElastiCache, SNS, SQS)", "IaaS (Terraform, CDK)"],
+  "data": ["PostgreSQL", "MySQL", "Redis", "Elasticsearch", "MongoDB"]
+}

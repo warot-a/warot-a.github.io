@@ -1,33 +1,24 @@
-import { TABS, type TabType } from '../constants/tabs';
-import favIcon from '../assets/favicon-cat-blue.svg';
+import { Sun, Moon } from 'lucide-react';
 
-interface HeaderProps {
-  tab: TabType;
-  setTab: (tab: TabType) => void;
-}
+type HeaderProps = {
+  darkMode: boolean;
+  onToggleDarkMode: () => void;
+};
 
-function Header({ tab, setTab }: HeaderProps) {
-  return (
-    <header className="border-b border-sky-200 bg-white/80 backdrop-blur">
-      <div className="mx-auto max-w-5xl px-4 py-5 flex items-center justify-between">
-        <a href="/" className="text-2xl font-bold text-sky-700 flex items-center gap-2 hover:text-sky-800 transition-colors">
-          <img src={favIcon} alt="favicon" /> Warot Anusakprasit
-        </a>
-        <nav className="flex gap-3">
-          {Object.values(TABS).map(k => (
-            <button
-              key={k}
-              onClick={() => setTab(k)}
-              className={`px-3 py-1.5 rounded-lg text-sm font-medium capitalize
-              ${tab === k ? 'bg-sky-600 text-white' : 'text-sky-700 hover:bg-sky-100'}`}
-            >
-              {k}
-            </button>
-          ))}
-        </nav>
-      </div>
-    </header>
-  );
-}
+const Header = ({ darkMode, onToggleDarkMode }: HeaderProps) => (
+  <header className="flex justify-end mb-8">
+    <button
+      onClick={onToggleDarkMode}
+      className="
+        p-3 rounded-full border transition-all
+        dark:bg-slate-800 dark:border-slate-700 dark:text-yellow-400 dark:hover:bg-slate-700
+        bg-white border-slate-200 text-slate-600 hover:bg-slate-100
+      "
+      aria-label="Toggle Theme"
+    >
+      {darkMode ? <Sun size={20} /> : <Moon size={20} />}
+    </button>
+  </header>
+);
 
 export default Header;
